@@ -45,13 +45,7 @@ export const App = () => {
               С большим денежным призом
             </Typography.Text>
           </div>
-          <img
-            src={hbImg}
-            alt="HB"
-            width="100%"
-            height={260}
-            style={{ objectFit: 'cover', transform: 'scale(1.1)', margin: '-1rem 0 1rem' }}
-          />
+          <img src={hbImg} alt="HB" width="100%" height={260} style={{ objectFit: 'contain' }} />
           <Typography.Text view="primary-small" color="secondary">
             Играйте и выигрывайте
           </Typography.Text>
